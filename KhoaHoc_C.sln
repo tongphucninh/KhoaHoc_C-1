@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KhoaHoc_C", "KhoaHoc_C\KhoaHoc_C.csproj", "{960AF791-438B-40F0-8B3C-56419E080659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KhoaHoc_C", "KhoaHoc_C\KhoaHoc_C.csproj", "{960AF791-438B-40F0-8B3C-56419E080659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
