@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\13.DaoTaoLapTrinh-SPEC\\C#\\T5-21\\KhoaHoc_C\\KhoaHoc_C\\Buoi1_C.csproj",
-      "projectName": "Buoi1_C",
-      "projectPath": "D:\\13.DaoTaoLapTrinh-SPEC\\C#\\T5-21\\KhoaHoc_C\\KhoaHoc_C\\Buoi1_C.csproj",
+      "projectUniqueName": "D:\\13.DaoTaoLapTrinh-SPEC\\C#\\T5-21\\KhoaHoc_C\\Buoi2_C\\Buoi2_C.csproj",
+      "projectName": "Buoi2_C",
+      "projectPath": "D:\\13.DaoTaoLapTrinh-SPEC\\C#\\T5-21\\KhoaHoc_C\\Buoi2_C\\Buoi2_C.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\13.DaoTaoLapTrinh-SPEC\\C#\\T5-21\\KhoaHoc_C\\KhoaHoc_C\\obj\\",
+      "outputPath": "D:\\13.DaoTaoLapTrinh-SPEC\\C#\\T5-21\\KhoaHoc_C\\Buoi2_C\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

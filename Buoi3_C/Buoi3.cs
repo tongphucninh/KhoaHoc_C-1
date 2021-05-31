@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace Buoi3_C
 {
-    class Program
+    class Buoi3
     {
         static void Main(string[] args)
         {
