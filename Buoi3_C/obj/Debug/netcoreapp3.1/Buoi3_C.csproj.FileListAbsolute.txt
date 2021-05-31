@@ -1,0 +1,13 @@
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\bin\Debug\netcoreapp3.1\Buoi3_C.exe
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\bin\Debug\netcoreapp3.1\Buoi3_C.deps.json
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\bin\Debug\netcoreapp3.1\Buoi3_C.runtimeconfig.json
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\bin\Debug\netcoreapp3.1\Buoi3_C.runtimeconfig.dev.json
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\bin\Debug\netcoreapp3.1\Buoi3_C.dll
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\bin\Debug\netcoreapp3.1\Buoi3_C.pdb
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\obj\Debug\netcoreapp3.1\Buoi3_C.csprojAssemblyReference.cache
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\obj\Debug\netcoreapp3.1\Buoi3_C.AssemblyInfoInputs.cache
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\obj\Debug\netcoreapp3.1\Buoi3_C.AssemblyInfo.cs
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\obj\Debug\netcoreapp3.1\Buoi3_C.csproj.CoreCompileInputs.cache
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\obj\Debug\netcoreapp3.1\Buoi3_C.dll
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\obj\Debug\netcoreapp3.1\Buoi3_C.pdb
+D:\13.DaoTaoLapTrinh-SPEC\C#\T5-21\KhoaHoc_C\Buoi3_C\obj\Debug\netcoreapp3.1\Buoi3_C.genruntimeconfig.cache

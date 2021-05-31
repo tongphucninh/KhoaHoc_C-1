@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Buoi2_C
 {
     class Buoi2
@@ -50,7 +49,7 @@ namespace Buoi2_C
             //Toán tử 3 ngôi:
             //a) Kiểm tra chẵn lẻ
             string _KetQua_A = (_int_SoNguyen % 2 != 0) ? "So le":"So chan";
-            Console.WriteLine("a) So N = {0} la {1}", _int_SoNguyen, _KetQua_A);
+            Console.WriteLine("a) So \"N\" = {0} la {1}", _int_SoNguyen, _KetQua_A);
             //b) Kiểm tra âm dương
             string _KetQua_B = (_int_SoNguyen >= 0) ? "So duong" : "So am";
             Console.WriteLine("b) So N = {0} la {1}", _int_SoNguyen, _KetQua_B);
