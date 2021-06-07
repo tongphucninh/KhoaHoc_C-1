@@ -20,7 +20,6 @@ namespace Buoi2_C
             //<Kiểu dữ liệu> _Tenbien  [=Gán giá trị];
             string _str = "abc";
             int _int1 = 2;
-            int _int2 = 2;
             double _dou = 2.2;
             //TH1: In chuỗi
             Console.WriteLine("Chuoi vua khai bao: " + _str);
