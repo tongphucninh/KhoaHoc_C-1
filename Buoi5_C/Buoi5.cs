@@ -10,7 +10,8 @@ namespace Buoi5_C
             //Phan5_1();
             //Phan5_2();
             //Phan5_3();
-            BaiTapBuoi5();
+            //BaiTapBuoi5_1();
+            BaiTapBuoi5_2();
         }
         static void Phan5_1()
         {
@@ -88,7 +89,7 @@ namespace Buoi5_C
             while (i <= 20);
             Console.ReadLine();
         }
-        static void BaiTapBuoi5()
+        static void BaiTapBuoi5_1()
         {
             //Bài tập 1: Nhập họ tên cho đến lúc dừng
             string _KiemTra = "Y";//Khởi tạo biến kiểm tra bằng Y để bắt đầu
@@ -100,11 +101,27 @@ namespace Buoi5_C
                 Console.WriteLine("Xin chao " + _HoTen);
                 Console.Write("Ban muon tiep tuc hay k (Y/N): ");
                 _KiemTra = Console.ReadLine().ToUpper();
-                
+               
                 i++;
             }
             Console.WriteLine("Ban da dung");
             Console.ReadLine();
-        }    
+        }   
+        static void BaiTapBuoi5_2()
+        {
+            //Bài tập 2:
+            Console.Write("Nhap so muon chay den, N = ");
+            string _str_N = Console.ReadLine();
+            int _int_N = int.Parse(_str_N);
+            int i = 0;
+            while (i<=_int_N)//Điều kiện đúng
+            {
+                //Lệnh thực thi khi điều kiện đúng
+                Console.Write("{0}\t", i);
+                i +=2 ;
+            }
+
+            Console.ReadLine();
+        } 
     }
 }
