@@ -18,7 +18,7 @@ namespace Buoi7_C
         //    string _b1 = "a";
         //    string _b2 = "b";
         //    string _b3 = "c";
-        //    //Thêm các phần tử đó vào danh sách 
+        //    //Thêm các phần tử đó vào danh sách
 
         //    _lst_str.Add(_b1);
         //    _lst_str.Add(_b2);
