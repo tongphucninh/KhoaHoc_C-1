@@ -1,0 +1,12 @@
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\bin\Debug\netcoreapp3.1\Buoi7_C.exe
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\bin\Debug\netcoreapp3.1\Buoi7_C.deps.json
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\bin\Debug\netcoreapp3.1\Buoi7_C.runtimeconfig.json
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\bin\Debug\netcoreapp3.1\Buoi7_C.runtimeconfig.dev.json
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\bin\Debug\netcoreapp3.1\Buoi7_C.dll
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\bin\Debug\netcoreapp3.1\Buoi7_C.pdb
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\obj\Debug\netcoreapp3.1\Buoi7_C.AssemblyInfoInputs.cache
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\obj\Debug\netcoreapp3.1\Buoi7_C.AssemblyInfo.cs
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\obj\Debug\netcoreapp3.1\Buoi7_C.csproj.CoreCompileInputs.cache
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\obj\Debug\netcoreapp3.1\Buoi7_C.dll
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\obj\Debug\netcoreapp3.1\Buoi7_C.pdb
+C:\Users\MINH TONG\Documents\GitHub\KhoaHoc_C\Buoi7_C\obj\Debug\netcoreapp3.1\Buoi7_C.genruntimeconfig.cache
