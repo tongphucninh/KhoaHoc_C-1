@@ -7,7 +7,7 @@ namespace Buoi7_C
         static void Main()
         {
             Tongphucninh0383476596 _Tenclass = new Tongphucninh0383476596();
-            _Tenclass.Test_class();
+            _Tenclass.Class();
             Console.ReadKey();
         }
         //static void _vidu_1()

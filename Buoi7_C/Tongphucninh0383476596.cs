@@ -6,32 +6,47 @@ namespace Buoi7_C
 {
     class Tongphucninh0383476596
     {
-        public void Test_class()
+        public  void Class()
         {
-            Console.WriteLine("Bai tap : ");
+            List<string[]> _inraman = new List<string[]>();
+            string[] _mang_ten = { "STT", "Ho va Ten", "Diem Toan", "Diem Ly", "Diem Hoa", "DTB", "Hoc Luc" };
+            _inraman.Add(_mang_ten);
+            string _KiemTra = "Y";
+            int i = 1;
+            while (_KiemTra == "Y")
+            {
+                string _Hoten_KQ = Nhapten();
+                double _DiemToan = NhapDiem("Toan");
+                double _DiemLy = NhapDiem("Ly");
+                double _DiemHoa = NhapDiem("Hoa");
+                Console.WriteLine("Diem  toan cua ban la: {0}đ", _DiemToan);
+                Console.WriteLine("Diem  ly cua ban la: {0}đ", _DiemLy);
+                Console.WriteLine("Diem hoa cua ban la: {0}đ", _DiemHoa);
+                double _DTB = Math.Round((_DiemHoa + _DiemToan + _DiemLy) / 3, 2);
+                string _HocLuc = DanhGiaHocLuc(_DTB);
+                string[] _mang_data =
+                {
+                   i.ToString(), _Hoten_KQ, _DiemToan.ToString(), _DiemLy.ToString(), _DiemHoa.ToString(), _DTB.ToString(), _HocLuc
+                };
+                _inraman.Add(_mang_data);
+                Console.Write("Ban muon tiep tuc hay k (Y/N): ");
+                _KiemTra = Console.ReadLine().ToUpper();
 
-            string _Hoten_KQ = Nhapten();
-            Console.WriteLine("Xin chao ban " + _Hoten_KQ);
-            double _Diemtoan = NhapDiem("toan");
-            double _Diemly = NhapDiem("ly");
-            double _Diemhoa = NhapDiem("hoa");
-            double _DTB = (_Diemhoa + _Diemtoan + _Diemly) / 3;
-            string _HocLuc = Danhgiahocluc(_DTB);
+                i++;
+            }
+            foreach (string[] _item in _inraman)
+            {
+                Console.Write("{0,-5}", _item[0]);
+                Console.Write("{0,-35}", _item[1]);
+                Console.Write("{0,-10}", _item[2]);
+                Console.Write("{0,-10}", _item[3]);
+                Console.Write("{0,-10}", _item[4]);
+                Console.Write("{0,-10}", _item[5]);
+                Console.Write("{0,-10} \n", _item[6]);
+            }
 
-            Console.WriteLine("================HOC SINH===================");
-            Console.Write("{0,-20}|", "Ho Va Ten");
-            Console.Write("{0,-5}|", "Hoa");
-            Console.Write("{0,-5}|", "Toan");
-            Console.Write("{0,-5}|", "Ly");
-            Console.Write("{0,-5}|", "DTB");
-            Console.WriteLine("{0,-10}|", "Hoc luc");
-            Console.Write("{0,-20}|", _Hoten_KQ);
-            Console.Write("{0,-5}|", _Diemhoa);
-            Console.Write("{0,-5}|", _Diemtoan);
-            Console.Write("{0,-5}|", _Diemly);
-            Console.Write("{0,-5}|", _DTB);
-            Console.Write("{0,-5}|", _HocLuc);
-            Console.ReadLine();
+            Console.ReadKey();          
+
         }
         static string Nhapten()
         {
@@ -58,78 +73,72 @@ namespace Buoi7_C
                 }
             }
             else
+
             {
                 Console.WriteLine("Ban chua nhap ho ten cua ban!");
                 return Nhapten();
             }
-            if (string.IsNullOrEmpty(_HoTen) && string.IsNullOrWhiteSpace(_HoTen))
-            {
-
-            }
             return "";
 
         }
-        static double NhapDiem(string _Tenmonhoc)
+        static double NhapDiem(string _TenMonHoc)
         {
-            double _dlb_Diem = 0.0;
-            Console.Write("Diem mon {0} cua ban la :", _Tenmonhoc);
-            string _str_diem = Console.ReadLine();
-            if (_str_diem != "" && _str_diem != " ")
+            double _dbl_Diem = 0.0;
+            Console.Write("diem mon {0} cua ban la: ", _TenMonHoc);
+            string _str_Diem = Console.ReadLine();
+            if (_str_Diem != "" && _str_Diem != " ")
             {
-                if (char.IsNumber(_str_diem, 0))
+                if (char.IsNumber(_str_Diem, 0))
                 {
-                    _dlb_Diem = double.Parse(_str_diem);
-                    if (_dlb_Diem >= 0)
+                    _dbl_Diem = double.Parse(_str_Diem);
+                    if (_dbl_Diem >= 0)
                     {
-                        if (_dlb_Diem <= 10)
+                        if (_dbl_Diem <= 10)
                         {
-                            return _dlb_Diem;
-
+                            return _dbl_Diem;
                         }
                         else
                         {
                             Console.WriteLine("Diem khong hop ly!");
-                            NhapDiem(_Tenmonhoc);
+                            return NhapDiem(_TenMonHoc);
                         }
-
                     }
                     else
                     {
                         Console.WriteLine("Ban phai nhap so duong!");
-                        NhapDiem(_Tenmonhoc);
+                        return NhapDiem(_TenMonHoc);
                     }
                 }
                 else
                 {
                     Console.WriteLine("Ban phai nhap so!");
-                    NhapDiem(_Tenmonhoc);
+                    return NhapDiem(_TenMonHoc);
                 }
             }
             else
             {
-                Console.WriteLine("ban chua nhap diem");
-                NhapDiem(_Tenmonhoc);
-
+                Console.WriteLine("Ban chua nhap diem!");
+                return NhapDiem(_TenMonHoc);
             }
-            return _dlb_Diem;
+            return _dbl_Diem;
         }
-        static string Danhgiahocluc(double _DTB)
+        static string DanhGiaHocLuc(double _DTB)
         {
-            string _Hocluc = "";
+            string _HocLuc = "";
             if (_DTB >= 0 && _DTB < 5)
             {
-                _Hocluc = "Trung Binh";
+                _HocLuc = "Trung binh";
             }
             else if (_DTB >= 5 && _DTB < 7)
             {
-                _Hocluc = "Kha";
+                _HocLuc = "Kha";
 
             }
-            else if (_DTB >= 7 && _DTB < 10)
+            else if (_DTB >= 7 && _DTB <= 10)
             {
-                _Hocluc = "Gioi";
+                _HocLuc = "Gioi";
             }
-            return _Hocluc;
+            return _HocLuc;
         }
     }
 }
